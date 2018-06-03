@@ -1,0 +1,84 @@
+header {
+  width: 100%;
+  height: 85px;
+  position: fixed;
+  top: 20px;
+  z-index: 1;
+  background-color: $darkBlack;
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo_cnt_left {
+    width: 70px;
+    padding-top: 10px;
+  }
+  .logo_cnt_right {
+    width: 160px;
+  }
+  .logo_cnt_right.rp {
+    display: none;
+    .fas.fa-bars {
+      font-size: 2em;
+      position: absolute;
+      right: 25px;
+    }
+  }
+  ul {
+    display: flex;
+    margin-top: 20px;
+  }
+  a{
+   color: $peakydirtyWhite;
+   text-decoration: none;
+   text-transform: uppercase;
+   background-color: transparent;
+   -webkit-text-decoration-skip: objects;
+   padding: 15px;
+     &:hover {
+       color: $peakyRed;
+       text-decoration: none;
+     }
+  }
+  .nav-items {
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.2em;
+
+  }
+}
+
+p img {
+  display: block;
+  margin: auto;
+}
+
+// MEDIA QUERY RESPONSIVE TABLET AND SMARTPHONE
+@media only screen and (max-width: 1000px) {
+  header {
+    .logo_cnt_right {
+      display:none;
+    }
+    .nav-items {
+      align-items: center;
+      list-style-type: none;
+      font-size: 0.8em;
+
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  header {
+    .logo_cnt_right {
+      display:none;
+    }
+    .logo_cnt_right.rp {
+      display: block
+    }
+    .nav-items {
+      display: none;
+
+    }
+  }
+}

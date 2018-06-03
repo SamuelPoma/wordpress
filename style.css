@@ -1,0 +1,139 @@
+* {
+  font-family: 'Roboto Slab', serif;
+  color: #dfdfdf;
+}
+
+._container {
+  width: 85vw;
+  margin: auto;
+}
+
+.body_style {
+  background-color: #222222;
+}
+
+[background="card-color"] {
+  background-color: #191919;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  position: fixed;
+  top: 20px;
+  z-index: 1;
+  background-color: #191919;
+}
+
+header .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo_cnt_left {
+  width: 70px;
+  padding-top: 10px;
+}
+
+header .logo_cnt_right {
+  width: 160px;
+}
+
+header .logo_cnt_right.rp {
+  display: none;
+}
+
+header .logo_cnt_right.rp .fas.fa-bars {
+  font-size: 2em;
+  position: absolute;
+  right: 25px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+header a {
+  color: #dfdfdf;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  padding: 15px;
+}
+
+header a:hover {
+  color: #c50000;
+  text-decoration: none;
+}
+
+header .nav-items {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+p img {
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  header .logo_cnt_right {
+    display: none;
+  }
+
+  header .nav-items {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style-type: none;
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header .logo_cnt_right {
+    display: none;
+  }
+
+  header .logo_cnt_right.rp {
+    display: block;
+  }
+
+  header .nav-items {
+    display: none;
+  }
+}
+
+.post {
+  color: #dfdfdf;
+  background-color: #191919;
+}
+
+.post a {
+  color: #dfdfdf;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  padding: 15px;
+}
+
+.post a:hover {
+  color: #c50000;
+  text-decoration: none;
+}
+

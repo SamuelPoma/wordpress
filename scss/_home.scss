@@ -1,0 +1,16 @@
+.post {
+  color: $peakydirtyWhite;
+  background-color: $darkBlack;
+  a{
+    color: $peakydirtyWhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    padding: 15px;
+    &:hover {
+      color: $peakyRed;
+      text-decoration: none;
+    }
+  }
+}
