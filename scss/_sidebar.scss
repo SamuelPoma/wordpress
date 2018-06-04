@@ -1,11 +1,17 @@
+// per eliminare la pagina di esempio di default presente nel pages widget, non eliminabile dal back office
+.page_item.page-item-2 {
+  display: none;
+}
 #tag_cloud-2, #media_image-2, #archives-3, #pages-2, #search-3 {
     margin-top:  45px;
     img {
       border: 10px solid $darkBlack;
       outline: 5px solid $peakyRed;
-
+      transition: transform 1s;
+      &:hover {
+         transform: scale(1.3);
+      }
     }
-
   }
 .tagcloud{
   a{

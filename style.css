@@ -137,6 +137,10 @@ p img {
   text-decoration: none;
 }
 
+.page_item.page-item-2 {
+  display: none;
+}
+
 #tag_cloud-2,
 #media_image-2,
 #archives-3,
@@ -152,6 +156,19 @@ p img {
 #search-3 img {
   border: 10px solid #191919;
   outline: 5px solid #c50000;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+#tag_cloud-2 img:hover,
+#media_image-2 img:hover,
+#archives-3 img:hover,
+#pages-2 img:hover,
+#search-3 img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .tagcloud a {

@@ -8,7 +8,7 @@
         <a href="<?php the_permalink() ?>" rel="bookmark" title="Link permanente a <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
       </h2>
       <!-- Visualizza la data (nel formato 16 Novembre 2009) ed un link agli altri articoli dell'autore dell'articolo. -->
-      <div class="text-center mb-3">
+      <div class="text-center mb-5">
         <small><?php the_time('j F Y') ?> di <?php the_author_posts_link() ?></small>
       </div>
        <div class="entry">

@@ -12,7 +12,7 @@
 
   <header>
     <div class="container-fluid">
-      <div class="logo_cnt_left">
+       <div class="logo_cnt_left">
         <img src="http://www.johncatlin.co.uk/images/peaky_blinders.jpg" class="img-fluid" alt="">
       </div>
       <div class="nav-item_cnt">
