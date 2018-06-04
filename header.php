@@ -35,7 +35,7 @@
     </div>
   </header>
     <?php if (is_front_page()) { ?>
-    <div class="_container">
+    <div class="_container slide">
       <div id="demo" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ul class="carousel-indicators">

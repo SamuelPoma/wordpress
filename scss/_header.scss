@@ -55,6 +55,11 @@ p img {
   margin: auto;
 }
 
+._container.slide{
+  border: 10px solid $darkBlack;
+  outline: 5px solid $peakyRed;
+}
+
 // MEDIA QUERY RESPONSIVE TABLET AND SMARTPHONE
 @media only screen and (max-width: 1000px) {
   header {

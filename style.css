@@ -90,6 +90,11 @@ p img {
   margin: auto;
 }
 
+._container.slide {
+  border: 10px solid #191919;
+  outline: 5px solid #c50000;
+}
+
 @media only screen and (max-width: 1000px) {
   header .logo_cnt_right {
     display: none;
