@@ -30,4 +30,19 @@ if (!function_exists('samTheme_setup'))
    }
      add_action('wp_enqueue_scripts', 'import_style_scripts');
  }
+
+ if (!function_exists('samPeaky_widgets_init')) {
+     function samPeaky_widgets_init() {
+     	register_sidebar( array(
+     		'name'          => 'primary',
+     		'id'            => 'primary',
+     		'description'   => 'La mia sidebar'
+     		// 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+     		// 'after_widget'  => '</aside>',
+     		// 'before_title'  => '<h2 class="widget-title">',
+     		// 'after_title'   => '</h2>',
+     	 ));
+     }
+     add_action( 'widgets_init', 'samPeaky_widgets_init' );
+ }
 ?>

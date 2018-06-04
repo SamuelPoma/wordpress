@@ -34,6 +34,7 @@
       </div>
     </div>
   </header>
+    <?php if (is_front_page()) { ?>
     <div class="_container">
       <div id="demo" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -63,3 +64,4 @@
         </a>
       </div>
     </div>
+  <?php } ?>

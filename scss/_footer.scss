@@ -1,0 +1,16 @@
+footer {
+  background-color: $darkBlack;
+  display: flex;
+  align-items: center;
+  .footer_cnt{
+    color: $peakydirtyWhite;
+    padding: 20px;
+    .text{
+      font-size: 1.3em;
+      #heart, #gun{
+          font-size: 1.5em;
+          color: $peakyRed;
+      }
+    }
+  }
+}

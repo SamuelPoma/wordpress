@@ -137,3 +137,162 @@ p img {
   text-decoration: none;
 }
 
+#tag_cloud-2,
+#media_image-2,
+#archives-3,
+#pages-2,
+#search-3 {
+  margin-top: 45px;
+}
+
+#tag_cloud-2 img,
+#media_image-2 img,
+#archives-3 img,
+#pages-2 img,
+#search-3 img {
+  border: 10px solid #191919;
+  outline: 5px solid #c50000;
+}
+
+.tagcloud a {
+  color: #dfdfdf;
+}
+
+#recent-posts-3,
+#archives-3,
+#pages-2,
+#search-3,
+#tag_cloud-2,
+#media_image-2 {
+  list-style-type: none;
+  background-color: #191919;
+  padding: 15px;
+}
+
+#recent-posts-3 h2:hover,
+#recent-posts-3 .screen-reader-text:hover,
+#archives-3 h2:hover,
+#archives-3 .screen-reader-text:hover,
+#pages-2 h2:hover,
+#pages-2 .screen-reader-text:hover,
+#search-3 h2:hover,
+#search-3 .screen-reader-text:hover,
+#tag_cloud-2 h2:hover,
+#tag_cloud-2 .screen-reader-text:hover,
+#media_image-2 h2:hover,
+#media_image-2 .screen-reader-text:hover {
+  color: #c50000;
+}
+
+#recent-posts-3 .screen-reader-text,
+#archives-3 .screen-reader-text,
+#pages-2 .screen-reader-text,
+#search-3 .screen-reader-text,
+#tag_cloud-2 .screen-reader-text,
+#media_image-2 .screen-reader-text {
+  margin-left: 45px;
+  color: #c50000;
+  font-size: 0;
+}
+
+#recent-posts-3 #s,
+#recent-posts-3 #searchsubmit,
+#archives-3 #s,
+#archives-3 #searchsubmit,
+#pages-2 #s,
+#pages-2 #searchsubmit,
+#search-3 #s,
+#search-3 #searchsubmit,
+#tag_cloud-2 #s,
+#tag_cloud-2 #searchsubmit,
+#media_image-2 #s,
+#media_image-2 #searchsubmit {
+  border-style: hidden;
+  border-radius: 5px;
+  padding: 10px;
+  color: #c50000;
+  font-size: 18px;
+}
+
+#recent-posts-3 #searchsubmit,
+#archives-3 #searchsubmit,
+#pages-2 #searchsubmit,
+#search-3 #searchsubmit,
+#tag_cloud-2 #searchsubmit,
+#media_image-2 #searchsubmit {
+  background-color: #c50000;
+  color: #dfdfdf;
+}
+
+.siderbar_cnt ul li {
+  list-style-type: circle;
+}
+
+.siderbar_cnt ul li a {
+  color: #dfdfdf;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.siderbar_cnt ul li a:hover {
+  color: #c50000;
+}
+
+footer {
+  background-color: #191919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer_cnt {
+  color: #dfdfdf;
+  padding: 20px;
+}
+
+footer .footer_cnt .text {
+  font-size: 1.3em;
+}
+
+footer .footer_cnt .text #heart,
+footer .footer_cnt .text #gun {
+  font-size: 1.5em;
+  color: #c50000;
+}
+
+.about-me h1:hover {
+  color: #c50000;
+}
+
+.about-me img {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.about-me img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.about-me .about-content-container {
+  background-color: #222222;
+  border: 5px solid #c50000;
+  padding: 25px;
+  font-size: 1.3em;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  z-index: 1;
+}
+
+.about-me .about-content-container:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+

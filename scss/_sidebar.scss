@@ -1,0 +1,60 @@
+#tag_cloud-2, #media_image-2, #archives-3, #pages-2, #search-3 {
+    margin-top:  45px;
+    img {
+      border: 10px solid $darkBlack;
+      outline: 5px solid $peakyRed;
+
+    }
+
+  }
+.tagcloud{
+  a{
+    color: $peakydirtyWhite
+  }
+
+}
+
+#recent-posts-3, #archives-3, #pages-2, #search-3, #tag_cloud-2, #media_image-2 {
+  list-style-type: none;
+  background-color: $darkBlack;
+  padding: 15px;
+  h2, .screen-reader-text{
+    &:hover {
+      color: $peakyRed;
+    }
+  }
+  .screen-reader-text {
+    margin-left: 45px;
+    color: $peakyRed;
+    // trick to remove text throught CSS into a HTML tag
+    font-size: 0;
+
+  }
+  #s, #searchsubmit {
+    border-style: hidden;
+    border-radius: 5px;
+    padding: 10px;
+    color: $peakyRed;
+    font-size: 18px;
+  }
+  #searchsubmit {
+    background-color: $peakyRed;
+    color:$peakydirtyWhite;
+  }
+}
+
+.siderbar_cnt {
+  ul {
+    li{
+      list-style-type: circle;
+      a{
+        color: $peakydirtyWhite;
+        font-size: 1.2em;
+        text-decoration: none;
+        &:hover {
+          color: $peakyRed;
+        }
+      }
+    }
+  }
+}
